@@ -1,0 +1,2 @@
+Usage : \
+curl -X POST "http://localhost:3000/mail" -H "Content-Type: application/json" -d '{"name": "Name", "email": "sub@domain.com", "subject": "Test", "message": "Email sended using MailChimp API"}' | python -m json.tool
